@@ -14,54 +14,79 @@ html, body {
 .container{
 background-color: #260E2A;
 text-align: center;
-color: yellow;
 height: 90%;
-width: 80%;
+width: 60%;
 margin: 0 auto;
 
+}
+.header_t{
+color: yellow;
+font-size: 1.5rem;
+font-weight: 500;
 }
 .header{
     color: white;
     text-align: center;
+    font-weight: 500;
+    text-align: center;
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: auto;
+    padding-right:20px;
 
 }
 .container_2{
 
     background-color: #531A5D;
-    width: 80%;
-    height: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
-    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+    margin: 0.6rem 0;
+    margin: 0.11rem 1.8rem;
     
 }
 .header_2{
     color: white;
-
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2.0rem;
+    font-weight: 400;
 }
 input{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 3%;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    
+    margin:1rem;
+    width: 70%;
+    border-radius: 5px;
+    border: 0;
+    font-size: 1.2rem;
+    padding: 0.23rem;
+    align-self: center;
 }
+
+
 .blocos_1{
     display: flex;
     justify-content: space-around;
-    margin-top: 190px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
     color: white;
 }
 .blocos_2{
     background-color: #3D5EEE;
-    padding: 1rem 0.6rem 0.6rem 0.6rem;
+    border-radius: 10px;
+    padding: 0.8rem 0.6rem 0.6rem 0.6rem;
+}
+
+.blocos_3{
+ 
+    font-size: 1.7rem;
+    text-align: center;
+
+    padding: 1.7rem 1rem 0.5rem 1rem;
+
+
 
 }
 </style>
@@ -70,12 +95,12 @@ input{
 <body>
 
 <div class="container">
-    <div>
+    <div class="header_t">
         GAME LOVERS ENQUETE
     </div>
         <div>
             <div class="header">
-                Estamos escolhendo nessa enquete os melhores estilos de jogos entre os afixionados por
+                Estamos escolhendo nessa enquete os melhores estilos de jogos entre os afixionados por <br>
                  video games. Participe da nossa equente
                 e escolha entre os três finalistas!
             </div>
@@ -94,20 +119,23 @@ input{
             <input type="email" placeholder="Digite seu e-mail">
            <div class="blocos_1">
                 <div class="blocos_2">
-                    <div>
+                    <div class="blocos_3">
                     Esportes
+                    <object data="sports_soccer_white.svg" type="image/svg+xml"></object>
                     </div>
                 </div>
 
                 <div class="blocos_2">
-                    <div>
+                    <div class="blocos_3">
                         Simulação
+                        <object data="local_airport_white.svg" type="image/svg+xml"></object>
                     </div>
                 </div>
 
                 <div class="blocos_2">
-                    <div>
+                    <div class="blocos_3">
                     Estratégia
+                    <object data="psychology_white.svg" type="image/svg+xml"></object>
                     </div>
                 </div>
 
